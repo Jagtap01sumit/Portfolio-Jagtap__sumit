@@ -1,9 +1,11 @@
-'use client'
-import React from "react";
+'use client';
+import React, { useState } from "react";
 import { FaGithubSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 export default function EmailSection() {
+  const [emailSubmitted, setEmailSubmitted] = useState(false);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
@@ -21,12 +23,15 @@ export default function EmailSection() {
       },
       body: JSONdata,
     };
+
     const response = await fetch(endpoint, options);
-   
     const resData = await response.json();
+
     console.log(resData);
-    if (response.status ===200) {
+
+    if (response.status === 200) {
       console.log("Message send.");
+      setEmailSubmitted(true);
     }
   };
 
@@ -34,10 +39,10 @@ export default function EmailSection() {
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I'm currently looking for new opportunities; my inbox is always open.
-          Whether you have a question or just want to say hi, I'll try my best
+          I&apos;m currently looking for new opportunities; my inbox is always open.
+          Whether you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
         <div className="socials text-3xl flex flex-row gap-2">
@@ -62,7 +67,7 @@ export default function EmailSection() {
               Your email
             </label>
             <input
-            name="email"
+              name="email"
               type="email"
               id="email"
               required
@@ -78,7 +83,7 @@ export default function EmailSection() {
               Subject
             </label>
             <input
-            name="subject"
+              name="subject"
               type="text"
               id="subject"
               required
@@ -107,6 +112,11 @@ export default function EmailSection() {
           >
             Send Message
           </button>
+          {emailSubmitted && (
+            <p className="text-green-500 text-sm mt-2">
+              Email send successfully
+            </p>
+          )}
         </form>
       </div>
     </section>
