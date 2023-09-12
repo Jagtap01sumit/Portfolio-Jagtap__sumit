@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 
 export default function ProjectSection() {
