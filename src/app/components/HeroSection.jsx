@@ -24,13 +24,15 @@ export default function HeroSection() {
             <TypeAnimation
               sequence={[
                 "Sumit Jagtap",
-                1500,
+                1000,
                 "Web Developer",
-                1500,
+                1000,
                 "Team Leader",
-                1500,
+                1000,
                 "UI/UX Designer",
-                1500,
+                1000,
+                "Learner.",
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -44,11 +46,15 @@ export default function HeroSection() {
           </p>
           <div className="">
             <button className="px-6 py-3 rounded-full mr-4 w-full sm:w-fit bg-gradient-to-br from-[#700cfc] via-[#5067da] to-blue-500 hover:bg-slate-200 text-white">
+            <a href="/resume/RESUME_SUMIT_JAGTAP.pdf">
               Hire Me
+           </a>
             </button>
             <button className="rounded-full bg-gradient-to-br from-[#700cfc] via-[#5067da] to-blue-500 bg-transprent hover:bg-slate-800 w-full sm:w-fit px-1 py-1 text-white border mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                <a href="/resume/RESUME_SUMIT_JAGTAP.pdf">
                 Download Cv
+                </a>
               </span>
             </button>
           </div>

@@ -18,34 +18,34 @@ export default function ProjectSection() {
       description: "Project 1 description",
       image: "/images/project-2.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
-      preViewUrl: "/",
+      gitUrl: "https://github.com/Jagtap01sumit/Portfolio-Jagtap__sumit",
+      preViewUrl: "https://jagtap-sumit-jagtap01sumit.vercel.app/",
     },
     {
       id: 2,
-      title: "MedTech",
+      title: "MYKNOT",
       description: "Project 2 description",
       image: "/images/project-2.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
-      preViewUrl: "/",
+      gitUrl: "https://github.com/Jagtap01sumit/MYKNOT-INTERN",
+      preViewUrl: "https://myknot-intern-kuvc.vercel.app/",
     },
     {
       id: 3,
-      title: "MyKnot",
+      title: "MedTech",
       description: "Project 3 description",
       image: "/images/project-2.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/Jagtap01sumit/MedTech-Website",
       preViewUrl: "/",
     },
     {
       id: 4,
-      title: "WhatsApp Chat Analyzer",
+      title: "ProfileSphere(Using NEXTJS)",
       description: "Project 4 description",
       image: "/images/project-2.png",
-      tag: ["All", "ML"],
-      gitUrl: "/",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Jagtap01sumit/ProfileSphere",
       preViewUrl: "/",
     },
     {
@@ -63,7 +63,7 @@ export default function ProjectSection() {
       description: "Project 6 description",
       image: "/images/project-2.png",
       tag: ["All", "ML"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/Jagtap01sumit/WhatsApp-Chat-Analyzer",
       preViewUrl: "/",
     },
   ];
@@ -76,7 +76,7 @@ export default function ProjectSection() {
   };
   
   return (
-    <div >
+    <div id="projectSection" >
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>

@@ -10,20 +10,20 @@ import MenuOverlay from   './MenuOverlay';
 const navLinks = [
     {
         title: "About",
-        path: "#about",
+        path: "#aboutSection",
     },
     {
         title: "Projects",
-        path: "#projects",
+        path: "#projectSection",
     },
     {
         title: "Internships",
-        path: "#internships",
+        path: "#projectSection",
     },
 
     {
         title: "Contact",
-        path: "#contact",
+        path: "#contactSection",
     },
 ];
 export default function Navbar() {

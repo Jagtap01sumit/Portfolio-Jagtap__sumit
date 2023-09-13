@@ -12,23 +12,23 @@ export default function AchievementSection() {
   );
   const AchievementList = [
     {
-        metric: "Projects",
-        value: "100",
-        postfix: "+",
-      },
-      {
-        prefix: "~",
-        metric: "Users",
-        value: "100,000",
-      },
-      {
-        metric: "Awards",
-        value: "7",
-      },
-      {
-        metric: "Years",
-        value: "5",
-      },
+      metric: "Projects",
+      value: "15",
+      postfix: "+",
+    },
+    {
+      prefix: "~",
+      metric: "User",
+      value: "100,000",
+    },
+    {
+      metric: "Awards",
+      value: "2",
+    },
+    {
+      metric: "Years",
+      value: "2",
+    },
   ];
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">

@@ -34,6 +34,7 @@ export default function AboutSection() {
         <ul className="list-disc pl-2">
           <li>University of Mumbai</li>
           <li>BVCOE</li>
+          <li>CGPA:9.11</li>
         </ul>
       ),
     },
@@ -51,13 +52,13 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="text-white" id='aboutSection'>
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-20 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} alt="image" />
         <div className="mt-4 md:mt-0 text-left flex flex-col full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base md:text-lg">
-            I&apos;m the dynamic candidate for this web dev internship due to my coding finesse, design sensibilities, and an insatiable hunger for growth. My track record of building user-centric websites, coupled with my proficiency in cutting-edge technologies, makes me a prime asset to your team. I&apos;m driven by innovation, thrive in collaborative environments, and possess an innate ability to turn concepts into captivating online realities. With a passion for crafting seamless user experiences and a dedication to mastering new skills, I am poised to elevate your projects to new heights. I&apos;m particularly excited about the opportunity to work on real-time projects, contributing my skills to create impactful websites that resonate with users and achieve lasting success. Let&apos;s embark on a journey of digital innovation together and create a remarkable portfolio of work.
+            I&apos;m Sumit Jagtap, an Information Technology enthusiast currently pursuing my BE degree at the University of Mumbai. Throughout my academic journey, I've cultivated a deep fascination for the world of Information Technology. My determination to excel in this field has led me to gain practical experience through three valuable internships, each contributing to my growth as a web developer. These experiences have nurtured my passion for creating visually appealing and seamlessly functional websites. With a strong foundation in IT, I am now eager to take on more challenging industrial projects within the web development domain, where I can apply my skills and collaborate with industry experts to bring innovative solutions to life. Join me on this exciting journey of technology, creativity, and continuous learning.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>
