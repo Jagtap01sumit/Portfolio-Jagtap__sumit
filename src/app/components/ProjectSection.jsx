@@ -14,9 +14,9 @@ export default function ProjectSection() {
   const projectData = [
     {
       id: 1,
-      title: "React Portfolio Website",
+      title: "NextJs Portfolio Website",
       description: "Project 1 description",
-      image: "/images/project-2.png",
+      image: "/images/image-3.avif",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/Portfolio-Jagtap__sumit",
       preViewUrl: "https://jagtap-sumit-jagtap01sumit.vercel.app/",
