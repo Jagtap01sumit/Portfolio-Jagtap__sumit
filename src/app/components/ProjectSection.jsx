@@ -25,7 +25,7 @@ export default function ProjectSection() {
       id: 2,
       title: "MYKNOT",
       description: "Project 2 description",
-      image: "/images/project-2.png",
+      image: "/images/project-3.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/MYKNOT-INTERN",
       preViewUrl: "https://myknot-intern-kuvc.vercel.app/",

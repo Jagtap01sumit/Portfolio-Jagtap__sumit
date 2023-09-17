@@ -14,7 +14,7 @@ export default function HeroSection() {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1
-            className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl
+            className="text-left text-white mb-4 text-4xl sm:text-5xl lg:text-8xl
           lg:leading-normal font-extrabold"
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#700cfc] to-blue-600">
@@ -24,30 +24,30 @@ export default function HeroSection() {
             <TypeAnimation
               sequence={[
                 "Sumit Jagtap",
-                1000,
+                1500,
                 "Web Developer",
-                1000,
+                1500,
                 "Team Leader",
-                1000,
+                1500,
                 "UI/UX Designer",
-                1000,
+                1500,
                 "Learner.",
-                1000,
+                1500,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ex
-            quos voluptas. Magni, cupiditate natus. Perferendis incidunt enim
-            officiis! Animi!
+          <p className="text-[#ADB7BE] text-left text-base sm:text-lg lg:text-xl mb-6">
+          I am enthusiastically seeking a stimulating job opportunity in the technology sector that not only fosters continuous learning and problem-solving but also provides a dynamic environment where I can apply my skills, innovate, and thrive.
           </p>
           <div className="">
             <button className="px-6 py-3 rounded-full mr-4 w-full sm:w-fit bg-gradient-to-br from-[#700cfc] via-[#5067da] to-blue-500 hover:bg-slate-200 text-white">
-            <a href="/resume/RESUME_SUMIT_JAGTAP.pdf">
+            
+              <a href="#contactSection" >
               Hire Me
+             
            </a>
             </button>
             <button className="rounded-full bg-gradient-to-br from-[#700cfc] via-[#5067da] to-blue-500 bg-transprent hover:bg-slate-800 w-full sm:w-fit px-1 py-1 text-white border mt-3">
