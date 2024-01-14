@@ -16,7 +16,7 @@ export default function ProjectSection() {
       id: 1,
       title: "SnapKart",
       description: "E-Commerce Website with Admin Pannel,
-      image: "/images/project-4.png",
+      image: "/images/E-Commerce-Site.jpg",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/E-Commerce-Website-with-admin-panel",
       preViewUrl: "/",
