@@ -24,7 +24,7 @@ export default function ProjectSection() {
      {
       id: 2,
       title: "Employee Dashboard",
-      description: "Advance Project Management System with two side (Admin & Employee),
+      description: "Advance Project Management System with two side (Admin & Employee)",
       image: "/images/project-4.jpg",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/",
