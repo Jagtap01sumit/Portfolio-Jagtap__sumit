@@ -12,14 +12,14 @@ export default function ProjectSection() {
   };
 
   const projectData = [
-    {
+   {
       id: 1,
-      title: "NextJs Portfolio Website",
-      description: "Project 1 description",
-      image: "/images/image-3.avif",
+      title: "SnapKart",
+      description: "E-Commerce Website with Admin Pannel,
+      image: "/images/project-4.png",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/Jagtap01sumit/Portfolio-Jagtap__sumit",
-      preViewUrl: "https://jagtap-sumit-jagtap01sumit.vercel.app/",
+      gitUrl: "https://github.com/Jagtap01sumit/E-Commerce-Website-with-admin-panel",
+      preViewUrl: "/",
     },
     {
       id: 2,
@@ -30,14 +30,14 @@ export default function ProjectSection() {
       gitUrl: "https://github.com/Jagtap01sumit/MYKNOT-INTERN",
       preViewUrl: "https://myknot-intern-kuvc.vercel.app/",
     },
-    {
+       {
       id: 3,
-      title: "MedTech",
-      description: "Project 3 description",
-      image: "/images/project-2.png",
+      title: "NextJs Portfolio Website",
+      description: "Project 1 description",
+      image: "/images/image-3.avif",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/Jagtap01sumit/MedTech-Website",
-      preViewUrl: "/",
+      gitUrl: "https://github.com/Jagtap01sumit/Portfolio-Jagtap__sumit",
+      preViewUrl: "https://jagtap-sumit-jagtap01sumit.vercel.app/",
     },
     {
       id: 4,
@@ -48,13 +48,13 @@ export default function ProjectSection() {
       gitUrl: "https://github.com/Jagtap01sumit/ProfileSphere",
       preViewUrl: "/",
     },
-    {
+   {
       id: 5,
-      title: "WhatsApp Chat Analyzer",
-      description: "Project 5 description",
+      title: "MedTech",
+      description: "Project 3 description",
       image: "/images/project-2.png",
-      tag: ["All", "ML"],
-      gitUrl: "/",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Jagtap01sumit/MedTech-Website",
       preViewUrl: "/",
     },
     {
