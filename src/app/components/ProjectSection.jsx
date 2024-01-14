@@ -21,8 +21,17 @@ export default function ProjectSection() {
       gitUrl: "https://github.com/Jagtap01sumit/E-Commerce-Website-with-admin-panel",
       preViewUrl: "/",
     },
-    {
+     {
       id: 2,
+      title: "Employee Dashboard",
+      description: "Advance Project Management System with two side (Admin & Employee),
+      image: "/images/project-4.jpeg",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Jagtap01sumit/",
+      preViewUrl: "/",
+    },
+    {
+      id: 3,
       title: "MYKNOT",
       description: "Project 2 description",
       image: "/images/project-3.png",
@@ -31,7 +40,7 @@ export default function ProjectSection() {
       preViewUrl: "https://myknot-intern-kuvc.vercel.app/",
     },
        {
-      id: 3,
+      id: 4,
       title: "NextJs Portfolio Website",
       description: "Project 1 description",
       image: "/images/image-3.avif",
@@ -40,7 +49,7 @@ export default function ProjectSection() {
       preViewUrl: "https://jagtap-sumit-jagtap01sumit.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "ProfileSphere(Using NEXTJS)",
       description: "Project 4 description",
       image: "/images/project-2.png",
@@ -49,7 +58,7 @@ export default function ProjectSection() {
       preViewUrl: "/",
     },
    {
-      id: 5,
+      id: 6,
       title: "MedTech",
       description: "Project 3 description",
       image: "/images/project-2.png",
@@ -58,7 +67,7 @@ export default function ProjectSection() {
       preViewUrl: "/",
     },
     {
-      id: 6,
+      id: 7,
       title: "WhatsApp Chat Analyzer",
       description: "Project 6 description",
       image: "/images/project-2.png",
