@@ -40,21 +40,18 @@ export default function HeroSection() {
             />
           </h1>
           <p className="text-[#ADB7BE] text-left text-base sm:text-lg lg:text-xl mb-6">
-          I am enthusiastically seeking a stimulating job opportunity in the technology sector that not only fosters continuous learning and problem-solving but also provides a dynamic environment where I can apply my skills, innovate, and thrive.
+            I am enthusiastically seeking a stimulating job opportunity in the
+            technology sector that not only fosters continuous learning and
+            problem-solving but also provides a dynamic environment where I can
+            apply my skills, innovate, and thrive.
           </p>
           <div className="">
             <button className="px-6 py-3 rounded-full mr-4 w-full sm:w-fit bg-gradient-to-br from-[#700cfc] via-[#5067da] to-blue-500 hover:bg-slate-200 text-white">
-            
-              <a href="#contactSection" >
-              Hire Me
-             
-           </a>
+              <a href="#contactSection">Hire Me</a>
             </button>
             <button className="rounded-full bg-gradient-to-br from-[#700cfc] via-[#5067da] to-blue-500 bg-transprent hover:bg-slate-800 w-full sm:w-fit px-1 py-1 text-white border mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                <a href="/resume/RESUME_SUMIT_JAGTAP.pdf">
-                Download Cv
-                </a>
+                <a href="/resume/Sumit_Jagtap_CV.pdf">Download Cv</a>
               </span>
             </button>
           </div>

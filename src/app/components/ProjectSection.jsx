@@ -12,19 +12,21 @@ export default function ProjectSection() {
   };
 
   const projectData = [
-   {
+    {
       id: 1,
       title: "SnapKart",
       description: "E-Commerce Website with Admin Pannel",
       image: "/images/E-Commerce-Site.jpg",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/Jagtap01sumit/E-Commerce-Website-with-admin-panel",
+      gitUrl:
+        "https://github.com/Jagtap01sumit/E-Commerce-Website-with-admin-panel",
       preViewUrl: "/",
     },
-     {
+    {
       id: 2,
-      title: "Employee Dashboard",
-      description: "Advance Project Management System with two side (Admin & Employee)",
+      title: "Project Management System",
+      description:
+        "Tracking the process of Preject with timeline. having 2 sides admin & employee",
       image: "/images/project-4.jpg",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/",
@@ -32,18 +34,18 @@ export default function ProjectSection() {
     },
     {
       id: 3,
-      title: "MYKNOT",
-      description: "Project 2 description",
-      image: "/images/project-3.png",
+      title: "Admin Dashboard UI",
+      description: "UI for the admin dashboards ( Amazing Animations) ",
+      image: "/images/project-5.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/MYKNOT-INTERN",
-      preViewUrl: "https://myknot-intern-kuvc.vercel.app/",
+      preViewUrl: "https://admin-dashboard-ui-nu.vercel.app/",
     },
-       {
+    {
       id: 4,
       title: "NextJs Portfolio Website",
       description: "Project 1 description",
-      image: "/images/image-3.avif",
+      image: "/images/project-1.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Jagtap01sumit/Portfolio-Jagtap__sumit",
       preViewUrl: "https://jagtap-sumit-jagtap01sumit.vercel.app/",
@@ -53,16 +55,16 @@ export default function ProjectSection() {
       title: "ProfileSphere(Using NEXTJS)",
       description: "Project 4 description",
       image: "/images/project-2.png",
-      tag: ["All", "Web"],
+      tag: ["Web"],
       gitUrl: "https://github.com/Jagtap01sumit/ProfileSphere",
       preViewUrl: "/",
     },
-   {
+    {
       id: 6,
       title: "MedTech",
       description: "Project 3 description",
       image: "/images/project-2.png",
-      tag: ["All", "Web"],
+      tag: ["Web"],
       gitUrl: "https://github.com/Jagtap01sumit/MedTech-Website",
       preViewUrl: "/",
     },
@@ -75,6 +77,24 @@ export default function ProjectSection() {
       gitUrl: "https://github.com/Jagtap01sumit/WhatsApp-Chat-Analyzer",
       preViewUrl: "/",
     },
+    {
+      id: 8,
+      title: "CinemaHub",
+      description: "Movie Ticket Booking Mobile Application (React-Native)",
+      image: "/images/project-2.png",
+      tag: ["All", "Mob. App"],
+      gitUrl: "https://github.com/Jagtap01sumit/CinemaHub",
+      preViewUrl: "/",
+    },
+    {
+      id: 9,
+      title: "BrewHub",
+      description: "Cafee App -> you can book your coffee or pre order",
+      image: "/images/project-2.png",
+      tag: ["Mob. App"],
+      gitUrl: "https://github.com/Jagtap01sumit/Coffee_Shop_App",
+      preViewUrl: "/",
+    },
   ];
   const filterProjects = projectData.filter((project) =>
     project.tag.includes(tag)
@@ -83,9 +103,9 @@ export default function ProjectSection() {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
   };
-  
+
   return (
-    <div id="projectSection" >
+    <div id="projectSection">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
@@ -104,18 +124,18 @@ export default function ProjectSection() {
 
         <ProjectTag
           onClick={handleTagChange}
-          name="ML"
-          isSelected={tag === "ML"}
+          name="Mob. App"
+          isSelected={tag === "Mob. App"}
         />
       </div>
       <div ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filterProjects.map((project,index) => (
+        {filterProjects.map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{duration:0.3,delay:index*0.4}}
+            transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
               key={project.id}
